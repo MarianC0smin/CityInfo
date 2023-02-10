@@ -20,6 +20,7 @@ namespace CityInfo.API.Controllers
             return Ok(city.PointsOfInterest);
         }
 
+        [HttpGet("{pointofinterestid}")]
         public ActionResult<PointOfInterestDto> GetPointOfInterest (int cityId, int pointOfInterestId)
         {
             var city = CitiesDataStore.Current.Cities.FirstOrDefault(c =>c.Id == cityId);
