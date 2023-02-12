@@ -141,3 +141,91 @@ VALUES ('20230212111308_CityInfoDbInitialMigration', '7.0.2');
 2023-02-12 13:26:46.284 +02:00 [DBG] 'CityInfoContext' disposed.
 2023-02-12 13:26:46.285 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
 2023-02-12 13:26:46.285 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-02-12 14:05:07.148 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-12 14:05:07.817 +02:00 [DBG] Entity Framework Core 7.0.2 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.2' with options: None
+2023-02-12 14:05:08.018 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-02-12 14:05:28.349 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-12 14:05:29.014 +02:00 [DBG] Entity Framework Core 7.0.2 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.2' with options: None
+2023-02-12 14:05:29.032 +02:00 [DBG] Creating DbConnection.
+2023-02-12 14:05:29.051 +02:00 [DBG] Created DbConnection. (15ms).
+2023-02-12 14:05:29.055 +02:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.058 +02:00 [DBG] Creating DbConnection.
+2023-02-12 14:05:29.059 +02:00 [DBG] Created DbConnection. (0ms).
+2023-02-12 14:05:29.061 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.069 +02:00 [DBG] Opened connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.073 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.078 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-02-12 14:05:29.088 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-12 14:05:29.095 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2023-02-12 14:05:29.096 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (10ms).
+2023-02-12 14:05:29.096 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.099 +02:00 [DBG] Opened connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.105 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-02-12 14:05:29.122 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-02-12 14:05:29.124 +02:00 [DBG] Closing connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.128 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (4ms).
+2023-02-12 14:05:29.130 +02:00 [DBG] Creating DbConnection.
+2023-02-12 14:05:29.130 +02:00 [DBG] Created DbConnection. (0ms).
+2023-02-12 14:05:29.130 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.130 +02:00 [DBG] Opened connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.131 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.131 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-02-12 14:05:29.131 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-12 14:05:29.131 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-12 14:05:29.131 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-12 14:05:29.131 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.131 +02:00 [DBG] Opened connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.131 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-02-12 14:05:29.131 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-02-12 14:05:29.131 +02:00 [DBG] Closing connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.131 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-02-12 14:05:29.150 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-12 14:05:29.151 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-12 14:05:29.151 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-12 14:05:29.151 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.151 +02:00 [DBG] Opened connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.151 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-02-12 14:05:29.152 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-02-12 14:05:29.154 +02:00 [DBG] Closing data reader to 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.155 +02:00 [DBG] A data reader for 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 2ms reading results.
+2023-02-12 14:05:29.155 +02:00 [DBG] Closing connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.155 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-02-12 14:05:29.167 +02:00 [INF] Applying migration '20230212120507_CityInfoDbAddPointOfInterestDescription'.
+2023-02-12 14:05:29.206 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.206 +02:00 [DBG] Opened connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.237 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-12 14:05:29.239 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-02-12 14:05:29.240 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-12 14:05:29.240 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-12 14:05:29.241 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-12 14:05:29.241 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-02-12 14:05:29.242 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-02-12 14:05:29.242 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-12 14:05:29.242 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-12 14:05:29.242 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-12 14:05:29.242 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230212120507_CityInfoDbAddPointOfInterestDescription', '7.0.2');
+2023-02-12 14:05:29.243 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230212120507_CityInfoDbAddPointOfInterestDescription', '7.0.2');
+2023-02-12 14:05:29.244 +02:00 [DBG] Committing transaction.
+2023-02-12 14:05:29.249 +02:00 [DBG] Committed transaction.
+2023-02-12 14:05:29.250 +02:00 [DBG] Disposing transaction.
+2023-02-12 14:05:29.250 +02:00 [DBG] Closing connection to database 'main' on server 'D:\Learning\CityInfo\CityInfo.API\CityInfo.db'.
+2023-02-12 14:05:29.250 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-02-12 14:05:29.251 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-02-12 14:05:29.251 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2023-02-12 14:05:29.251 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
